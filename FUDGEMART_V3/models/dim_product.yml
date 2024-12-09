@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: dim_product
+    description: Product Dimension. One row per product.
+    columns:
+      - name: productkey
+        description: The surrogate key of the product.
+        tests:
+          - not_null
+          - unique
+      - name: productid
+        description: The business / source key of the product.
+        tests:
+          - not_null
+          - unique
+      - name: product_name
+        description: The name of the product.
+        tests:
+          - not_null
+      - name: product_department
+        description: The department the product belongs to.
+      - name: product_retail_price
+        description: The retail price of the product.
+        tests:
+          - not_null
+      - name: product_wholesale_price
+        description: The wholesale price of the product.
+      - name: product_is_active
+        description: Indicates if the product is active.
+      - name: product_add_date
+        description: The date the product was added.
+      - name: product_vendor_id
+        description: The vendor ID for the product.
+      - name: product_description
+        description: The description of the product.
