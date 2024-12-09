@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: fudgemart_v3
+    database: raw
+    schema: fudgemart_v3
+
+    tables:
+      - name: fm_order_details
+        columns:
+          - name: order_id
+            tests:
+              - not_null
+          - name: product_id
+          - name: order_qty

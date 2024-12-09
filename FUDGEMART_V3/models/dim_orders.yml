@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: fudgemart_v3
+    database: raw
+    schema: fudgemart_v3
+
+    tables:
+      - name: fm_orders
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+          - name: order_date
+          - name: shipped_date
+          - name: ship_via
+          - name: creditcard_id
