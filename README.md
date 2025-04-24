@@ -46,10 +46,10 @@ The **ETL pipeline** follows this structured approach:
 ---
 
 ## **Key Features**  
-✅ **Automated ETL Workflow** – DBT ensures seamless transformation and scheduling of ETL processes.  
-✅ **Optimized Data Warehouse** – Dimensional modeling improves query performance.  
-✅ **Scalable & Maintainable Pipeline** – Designed to handle large-scale datasets efficiently.  
-✅ **Business Insights Dashboard** – Tableau provides an intuitive interface for decision-making.  
+ **Automated ETL Workflow** – DBT ensures seamless transformation and scheduling of ETL processes.  
+ **Optimized Data Warehouse** – Dimensional modeling improves query performance.  
+ **Scalable & Maintainable Pipeline** – Designed to handle large-scale datasets efficiently.  
+ **Business Insights Dashboard** – Tableau provides an intuitive interface for decision-making.  
 
 ---
 
@@ -68,7 +68,7 @@ The **ETL pipeline** follows this structured approach:
 ---
 
 ## **Business Intelligence & Visualization**  
-📊 **Tableau Dashboard** – Displays key business KPIs, including:
+ **Tableau Dashboard** – Displays key business KPIs, including:
 - **Sales Trends** – Revenue breakdown by region, product category, and customer segments.  
 - **Customer Insights** – Retention, purchase patterns, and lifetime value analysis.  
 - **Inventory Monitoring** – Stock levels, replenishment needs, and product demand trends.  
